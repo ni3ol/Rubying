@@ -7,3 +7,5 @@ name = gets.strip
 puts "And your surname?"
 surname = gets.strip
 puts "Hello, " + name + " " + surname + "! High Five!"
+nameLength = name.length + surname.length
+puts "Your name is " + nameLength.to_s + " long."
