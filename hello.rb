@@ -3,5 +3,5 @@
 puts "Hello Human!"
 
 puts "What is your name?"
-name = gets
+name = gets.strip
 puts "Hello, " + name + "! Grrrr...."
